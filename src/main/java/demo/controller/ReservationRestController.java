@@ -17,7 +17,7 @@ public class ReservationRestController {
     @Autowired
     private ReservationRepository reservationRepository;
 
-    @RequestMapping("/reservations")
+    @RequestMapping("/reservation")
     Collection<Reservation> reservations() {
         return reservationRepository.findAll();
 

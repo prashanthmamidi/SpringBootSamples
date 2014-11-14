@@ -25,13 +25,13 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @Bean
+/*    @Bean
     CommandLineRunner callMeBack(ReservationRepository reservationRepository) {
          return args -> {
              List<Reservation> reservations = reservationRepository.findAll();
              reservations.forEach(System.out::println);
          };
-    }
+    }*/
 
 }
 
