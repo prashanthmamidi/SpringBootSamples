@@ -7,3 +7,4 @@ insert into reservation(reservation_name) values('Services');
 insert into reservation(reservation_name) values('Core');
 insert into reservation(reservation_name) values('WS');
 insert into reservation(reservation_name) values('FE');
+insert into reservation(reservation_name) values('BA');
